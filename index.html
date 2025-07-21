@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wedding Countdown | Narendra ❤️ Parul</title>
-  <link rel="icon" href="favicon.png" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- Floating hearts -->
   <div class="hearts">
     <span style="left:10%">💖</span>
     <span style="left:20%; animation-delay: 2s;">💘</span>
@@ -19,14 +22,15 @@
     <span style="left:70%; animation-delay: 2s;">❤️</span>
   </div>
 
+  <!-- Main content -->
   <div class="container">
     <div class="floating-text">💍 Save the Date 💍</div>
     <h1>💒 Wedding Countdown 💒</h1>
     <h2>Narendra & Parul</h2>
 
     <div class="images">
-      <img src="./naren.JPG" alt="Narendra">
-      <img src="./parul.JPG" alt="Parul">
+      <img src="./naren.JPG" alt="Narendra" />
+      <img src="./parul.JPG" alt="Parul" />
     </div>
 
     <div class="quote">"Two hearts, one soul, one beautiful journey."</div>
@@ -38,7 +42,16 @@
     <div class="heart">💖</div>
   </div>
 
-  <audio id="bgMusic" src="song1.mp3" autoplay loop></audio>
+  <!-- Audio -->
+  <audio id="bgMusic" autoplay loop muted>
+    <source src="song1.mp3" type="audio/mpeg" />
+    <source src="song1.ogg" type="audio/ogg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <button id="playMusicBtn" style="display:none;">🔊 Play Music</button>
+
   <script src="app.js"></script>
 </body>
+
 </html>
