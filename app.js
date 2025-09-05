@@ -1,4 +1,4 @@
-const weddingDate = new Date(2025, 9, 22, 0, 0, 0); // October (month 9 in 0-based)
+const weddingDate = new Date(2025, 9, 30, 0, 0, 0); // October (month 9 in 0-based)
 
 function updateCountdown() {
   const now = new Date();
