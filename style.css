@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(270deg, #fcb69f, #ffecd2);
+  background-color: rgb(153, 217, 223);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   color: #333;
