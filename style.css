@@ -86,14 +86,15 @@ body {
 .images {
   display: flex;
   justify-content: center;
-  gap: 15px;
   margin: 20px 0;
-  flex-wrap: wrap;
+}
+.container .images {
+  text-align: center;
 }
 
 .images img {
-  width: 90px;
-  height: 90px;
+  width: 150px; /* adjust size as needed */
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #fff;
